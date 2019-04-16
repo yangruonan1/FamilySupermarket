@@ -1,0 +1,401 @@
+body {
+	font-size: 12px;
+	background: #f2f4f6
+}
+
+
+/*container start*/
+
+.container-outer {
+	width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 1080px;
+	margin: auto;
+}
+
+.tuan-detail {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.crumb {
+	position: relative;
+	margin: 0 5px 10px;
+	color: #999;
+}
+
+.crumb a {
+	margin: 0 3px;
+	color: #999;
+	text-decoration: none;
+}
+
+.detail-meta {
+	background: #fff;
+	position: relative;
+}
+.detail-meta:after {
+	content: ".";
+	clear: both;
+	display: block;
+	overflow: hidden;
+	height: 0;
+	visibility: hidden;
+}
+
+.side-wapper {
+	width: 415px;
+	height: 610px;
+	border-right: 0;
+	padding: 20px 20px 0 20px;
+	position: relative;
+	float: left;
+}
+
+.thumbnail,
+.origin {
+	width: 400px;
+	height: 400px;
+	border: 1px solid #dfdfdf;
+	position: absolute;
+}
+
+.origin {
+	left: 422px;
+	/* 原图在缩略图的右边 */
+	top: 20px;
+	overflow: hidden;
+	/* 隐藏溢出内容 */
+	display: none;
+	z-index: 99;
+}
+/* 放大镜框 */
+
+/* 这里按2倍放大，400px/200px=2 */
+
+.magnifier {
+	width: 200px;
+	height: 200px;
+	background: rgba(254, 238, 167, .4);
+	/* 半透明效果 */
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.thumb-cont {
+	width: 460px;
+    height: 85px;
+    position: absolute;
+    top: 440px;
+    left: 0px;
+}
+.thumb-cont-inner {
+	width: 345px;
+    height: 85px;
+    margin: auto;
+    overflow: hidden;
+}
+.thumb-cont-list {
+	height: 85px;
+}
+.thumb-cont-list li {
+	padding: 6px;
+    border: 2px solid #dfdfdf;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+.thumb-cont-list li a {
+	width: 60px;
+	height: 60px;
+	display: block;
+}
+.thumb-cont-list li a img {
+	width: 60px;
+	height: 60px;
+}
+
+.thumb-cont-inner .shangyiye,
+.thumb-cont-inner .xiayiye {
+	width: 20px;
+	height: 40px;
+	font-size: 30px;
+	color: #555;
+	position: absolute;
+	z-index: 3;
+	display: none;
+}
+.thumb-cont-inner .shangyiye {
+	left: 25px;
+	top: 20px;
+}
+.thumb-cont-inner .xiayiye {
+	right: 25px;
+	top: 20px;
+}
+
+
+.main-wrapper {
+	width: 548px;
+    margin-left: 480px;
+    padding: 25px;
+	
+}
+.title1 h3 {
+	font-weight: 400;
+    color: #333;
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+.title1 h3 span {
+	margin-right: 8px;
+    color: #FF5482;
+}
+.title1 p {
+	font-size: 13px;
+    color: #754;
+    margin-bottom: 8px;
+}
+
+.price-info {
+	position: relative;
+    width: 575px;
+    height: 80px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #fff;
+    border-bottom: 0;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background: #fe4a7a;
+}
+
+.price-info .now-price {
+	font-size: 24px;
+    line-height: 80px;
+    top: 0;
+    width: 210px;
+    height: 80px;
+    padding: 0;
+    /*position: absolute;
+    top: 0;*/
+}
+.now-price i {
+	font-size: 55px;
+    font-style: normal;
+}
+.price-info div {
+	font-size: 13px;
+    position: relative;
+    top: 20px;
+    display: inline;
+    float: left;
+    height: 36px;
+    padding: 0 18px;
+    text-align: center;
+    float: left;
+}
+
+.old-price i {
+	font-size: 14px;
+    font-weight: 400;
+    display: block;
+}
+
+.tuan-discont {
+	border-right: 1px dashed #f989a7;
+    border-left: 1px dashed #f989a7;
+    
+}
+
+.price-info div span {
+	font-size: 14px;
+    font-weight: 400;
+    display: block;
+}
+
+
+.sale-attrs {
+	padding: 15px 0 0;
+    border: 3px solid #eee;
+    border-top: none;
+    position: relative;
+}
+.sale-attrs:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.attr {
+	margin: 15px 0 15px;
+    font-size: 13px;
+    /*position: relative;*/
+}
+.attr label {
+	width: 65px;
+    height: 100%;
+    margin-left: 10px;
+    padding-top: 2px;
+    text-align: right;
+    color: #888;
+    display: inline-block;
+    margin-right: 15px;
+	
+}
+.view-stu {
+	margin: 15px 0 15px 35px;
+	position: relative;
+}
+.view-stu label {
+	position: absolute;
+	top: 5px;
+	left: -30px;
+}
+.view-stu .value {
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 60px;
+}
+.view-stu .value li {
+	line-height: 20px;
+	margin: 0 4px 4px 0;
+	padding: 1px;
+	background: #fff;
+	float: left;
+	
+}
+.view-stu .value li a {
+	height: 25px;
+    padding: 2px 8px 2px 2px;
+    color: #000;
+    border: 1px solid #b8b7bd;
+    background-color: #fff;
+    display: block;
+    line-height: 25px;
+}
+.view-stu .value li a:hover {
+	border: 2px solid #F34660;
+}
+.view-stu .value li a img {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+}
+.view-stu .value li a span {
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+}
+
+
+.by-num {
+	margin: 15px 0 6px 35px;
+	position: relative;
+	top: 50px;
+	left: -25px;
+	background: #f00;
+}
+.by-num label {
+	float: left;
+}
+.by-num .by-number {
+	float: left;
+}
+.by-number span {
+	width: 20px;
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+    border: 1px #ccc solid;
+}
+.by-number input {
+	width: 18px;
+	height: 13px;
+	padding: 7px 5px;
+	color: #777;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+.sale-attrs .ops {
+	margin-bottom: 20px;
+	position: absolute;
+	top: 170px;
+	left: 0px;
+	
+}
+.sale-attrs .ops a {
+	width: 140px;
+	height: 48px;
+	background: #ff4965;
+	display: block;
+	margin: 2px 0 0 124px;
+	position: relative;
+	border-radius: 10px;
+}
+.price-wrap {
+	line-height: 32px;
+    height: 32px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+	color: #fff;
+}
+.price-wrap .currency {
+	font-size: 14px;
+}
+.price-wrap .price-inte {
+	font-size: 24px;
+}
+.price-wrap .price-lit {
+	font-size: 14px;
+}
+.by-type {
+	font-size: 12px;
+    line-height: 18px;
+    height: 18px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    color: #fff;
+}
+
+.sale-attrs .add-cart {
+	position: absolute;
+	top: 170px;
+	left: 300px;
+	width: 140px;
+	height: 48px;
+	background: #ff4965;
+	border-radius: 10px;
+	line-height: 48px;
+	text-align: center;
+}
+.sale-attrs .add-cart a {
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+}
+.sale-attrs .add-cart a i {
+	display: none;
+	position: absolute;
+	right: -27px;
+	top: -14px;
+}
+
+/*container end*/

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--让网页的顶部有图片,必须放在title标签上面-->
+		<link rel="icon" href="img/beibei.ico" type="image/x-icon"/>
+		<title>商品列表页</title>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/commit.css"/>
+		<link rel="stylesheet" type="text/css" href="css/productList.css"/>
+	</head>
+	<body>
+		
+		<!--container start-->
+		<div class="container">
+			<div class="contain">
+				<div class="sub-nav-cont">
+					<ul>
+						<li><a href="#">童装</a></li>
+						<li><a href="#">母婴</a></li>
+						<li><a href="#">居家</a></li>
+						<li><a href="#">美食</a></li>
+						<li><a href="#">女装</a></li>
+						<li><a href="#">鞋包</a></li>
+						<li><a href="#">美妆</a></li>
+						<li><a href="#">奶粉</a></li>
+						<li><a href="#">纸尿裤</a></li>
+						<li class="tomorrow">
+							<a href="#">
+								<i class="iconfont icon-icon-clock"></i>
+								精彩预告
+							</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="crumb">
+					<a href="index.html">首页></a>
+					<span>分类浏览></span>
+					<span>童装</span>
+				</div>
+				
+				<div class="u-cover">
+					<div class="m-filter">
+						<ul class="my-ul">
+							<li class="z-current">
+								<a href="#">
+									综合
+									<i class="iconfont icon-downarrow">&nbsp;</i>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="price-totop">
+									价格
+									<i class="iconfont icon-uparrow">&nbsp;</i>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="num-todown">
+									销量
+									<i class="iconfont icon-downarrow">&nbsp;</i>
+								</a>
+							</li>
+						</ul>
+						<div class="fr">
+							<div class="node">位置：</div>
+							<div class="fr-center">童装</div>
+							<div class="total-sum">
+								共<span>1200</span>件特卖商品
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="m-mid-lay">
+					<div class="show-width">
+						<div class="m-sale">
+							
+							<!--<div class="m-item-detail">
+								<a href="#">
+									<img src="img/09183067406350_800x800.jpg!100x100.jpg"/>
+									<p class="title">111111111111111111111111111111111111111</p>
+									
+									<div class="price-info">
+										<p class="cur-price">
+											<span class="currency">￥</span>
+											<span class="price-num">32.90</span>
+										</p>
+										<p class="old-price">￥149</p>
+										<p class="discount-box">2.3折</p>
+									</div>
+								</a>
+								
+							</div>
+							<div class="m-item-detail">
+								<a href="#">
+									<img src="img/09183067406350_800x800.jpg!100x100.jpg"/>
+									<p class="title">111111111111111111111111111111111111111</p>
+									
+									<div class="price-info">
+										<p class="cur-price">
+											<span class="currency">￥</span>
+											<span class="price-num">32.90</span>
+										</p>
+										<p class="old-price">￥149</p>
+										<p class="discount-box">2.3折</p>
+									</div>
+								</a>
+								
+							</div>
+							<div class="m-item-detail">
+								<a href="#">
+									<img src="img/09183067406350_800x800.jpg!100x100.jpg"/>
+									<p class="title">111111111111111111111111111111111111111</p>
+									
+									<div class="price-info">
+										<p class="cur-price">
+											<span class="currency">￥</span>
+											<span class="price-num">32.90</span>
+										</p>
+										<p class="old-price">￥149</p>
+										<p class="discount-box">2.3折</p>
+									</div>
+								</a>
+								
+							</div>
+							<div class="m-item-detail">
+								<a href="#">
+									<img src="img/09183067406350_800x800.jpg!100x100.jpg"/>
+									<p class="title">111111111111111111111111111111111111111</p>
+									
+									<div class="price-info">
+										<p class="cur-price">
+											<span class="currency">￥</span>
+											<span class="price-num">32.90</span>
+										</p>
+										<p class="old-price">￥149</p>
+										<p class="discount-box">2.3折</p>
+									</div>
+								</a>
+								
+							</div>
+							<div class="m-item-detail">
+								<a href="#">
+									<img src="img/09183067406350_800x800.jpg!100x100.jpg"/>
+									<p class="title">111111111111111111111111111111111111111</p>
+									
+									<div class="price-info">
+										<p class="cur-price">
+											<span class="currency">￥</span>
+											<span class="price-num">32.90</span>
+										</p>
+										<p class="old-price">￥149</p>
+										<p class="discount-box">2.3折</p>
+									</div>
+								</a>
+								
+							</div>
+							<div class="m-item-detail">
+								<a href="#">
+									<img src="img/09183067406350_800x800.jpg!100x100.jpg"/>
+									<p class="title">111111111111111111111111111111111111111</p>
+									
+									<div class="price-info">
+										<p class="cur-price">
+											<span class="currency">￥</span>
+											<span class="price-num">32.90</span>
+										</p>
+										<p class="old-price">￥149</p>
+										<p class="discount-box">2.3折</p>
+									</div>
+								</a>
+								
+							</div>-->
+							
+							
+						</div>
+						<div class="page">
+							<a href="#" class="last-page">上一页</a>
+							<div class="pages">
+								<!--<a href="#">1</a>
+								<a href="#">2</a>
+								<a href="#">3</a>
+								<a href="#">4</a>
+								<a href="#">5</a>
+								<a href="#">6</a>-->
+							</div>
+							
+							<a href="#" class="next-page">下一页</a>
+						</div>
+					</div>
+						
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			
+		</div>
+		
+		
+		
+		<!--container end-->
+		
+	</body>
+	<script src="js/productList.js" type="text/javascript" charset="utf-8"></script>
+</html>

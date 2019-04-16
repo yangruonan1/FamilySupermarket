@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+
+	<body>
+		<label>
+			<input type="radio" name="sex" class="sex" value="男"/>男
+		</label>
+		<label>
+			<input type="radio" name="sex" class="sex" checked="checked"  value="女"/>女
+		</label>
+		<button>提交</button>
+		<script type="text/javascript">
+			$("button").click(function(){
+				
+				//var val = $("input[name='sex']:checked").val();
+				console.log($(".sex:checked").val());
+				
+			})
+			
+			
+			
+		</script>
+
+	</body>
+
+	<!--<script src="js/search.js" type="text/javascript" charset="utf-8"></script>-->
+
+</html>

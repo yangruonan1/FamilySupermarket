@@ -1,0 +1,276 @@
+
+
+body {
+    background: #f9f9f9;
+    font-size: 12px;
+}
+
+/*container start*/
+.container {
+	width: 100%;
+}
+.contain {
+	width: 1080px;
+	margin: auto;
+}
+.sub-nav-cont {
+	width: 100%;
+	height: 30px;
+	background: #fff;
+	box-shadow: 0 1px 5px #bbb;
+	position: relative;
+}
+.sub-nav-cont li {
+	float: left;
+}
+.sub-nav-cont li a {
+	margin: 0 12px 0 0;
+    padding: 0 10px;
+    color: #999;
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    border-bottom: 3px solid #fff;
+}
+.sub-nav-cont li a:hover {
+	border-bottom: 3px solid #ff647c;
+}
+.sub-nav-cont .tomorrow {
+	position: absolute;
+    right: 0;
+    font-size: 13px;
+    height: 30px;
+    padding: 0 28px;
+    background: #f7f7f7;
+}
+.sub-nav-cont .tomorrow a {
+	color: #ff506b;
+	border-bottom: 3px solid #f7f7f7;
+}
+.sub-nav-cont .tomorrow a:hover {
+	border-bottom: 3px solid #f7f7f7;
+}
+
+
+.crumb {
+	position: relative;
+    margin: 20px 5px 10px;
+    color: #999;
+}
+.crumb a,.crumb span {
+    margin: 0 3px;
+}
+.crumb a {
+	color: #999;
+}
+
+
+.u-cover {
+	background: #fff;
+    border: 1px solid #eee;
+    padding: 0 18px 0 0;
+    margin: 20px 0;
+}
+.m-filter {
+	height: 48px;
+    line-height: 48px;
+    color: #666;
+}
+.m-filter .my-ul {
+	margin-left: 40px;
+}
+.my-ul li {
+	float: left;
+	margin-left: 10px;
+}
+.my-ul li a {
+	color: #999;
+    padding: 2px 8px;
+    border: 1px solid #ddd;
+}
+.my-ul li a:hover {
+	border: 1px solid #ff4965;
+	color: #ff4965;
+}
+.my-ul .z-current a {
+	color: #fff;
+    background: #ff4965;
+    border: 1px solid #ff4965;
+}
+.my-ul .z-current a:hover {
+	color: #fff;
+    background: #ff4965;
+    border: 1px solid #ff4965;
+}
+
+.my-ul .icon-uparrow,
+.my-ul .icon-downarrow {
+	font-size: 12px;
+}
+
+.fr {
+	float: right;
+}
+.fr .node {
+	float: left;
+    display: inline;
+}
+.fr .fr-center {
+	float: left;
+    display: inline;
+    margin-left: 20px;
+}
+.fr .total-sum {
+	float: left;
+    display: inline;
+    margin-left: 20px;
+}
+.fr .total-sum span {
+	margin: 0 3px;
+    color: #ff4965;
+}
+
+
+.m-mid-lay {
+	position: relative;
+    min-height: 2100px;
+    height: auto!important;
+    height: 2100px;
+}
+.show-width {
+	position: relative;
+    margin-bottom: 40px;
+    width: 1110px;
+	
+}
+.show-width .m-sale {
+	width: 1100px;
+    background: 0 0;
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: none;
+    overflow: hidden;
+    
+}
+.m-item-detail {
+	width: 251px;
+    height: 334px;
+    overflow: hidden;
+    margin-right: 19px;
+    background: #fff;
+    border: 1px solid #ededed;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.m-item-detail a {
+	color: #3e3e3e;
+    /*text-decoration: none;*/
+}
+.m-item-detail img {
+	width: 253px;
+    height: 253px;
+}
+.m-item-detail a p {
+	font-size: 12px;
+    color: #666;
+    line-height: 12px;
+    margin: 11px 13px;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.m-item-detail .price-info {
+    width: auto;
+    position: relative;
+}
+.m-item-detail .price-info .cur-price {
+    font-weight: 400;
+}
+.m-item-detail .price-info .currency {
+    font-size: 20px;
+    color: #ff4965;
+    line-height: 12px;
+}
+.m-item-detail .price-info .price-num {
+    font-family: Verdana-Bold;
+    font-size: 24px;
+    color: #ff4965;
+    line-height: 24px;
+    text-align: left;
+}
+    
+
+.m-item-detail .price-info p {
+	display: inline-block;
+}
+.m-item-detail .old-price {
+    font-size: 14px;
+    color: #999;
+    margin-left: 2px;
+}
+.m-item-detail .discount-box {
+	
+    
+    position: absolute;
+    font-size: 14px;
+    color: #999;
+    text-align: right;
+    line-height: 14px;
+    bottom: 5px;
+    right: 0;
+}
+
+
+.page {
+	margin: 20px 0 15px;
+    padding: 3px;
+    position: relative;
+    text-align: center;
+}
+.page a {
+	background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 14px;
+    color: #777;
+    display: inline-block;
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 3px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.page a:hover {
+	border: 1px solid #ff5482;
+}
+.pages {
+	display: inline-block;
+}
+
+/*container end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

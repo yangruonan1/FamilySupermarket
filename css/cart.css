@@ -1,0 +1,195 @@
+
+body {
+	font-size: 12px;
+}
+
+.main-outer {
+	width: 100%;
+}
+.main {
+	width: 1080px;
+	margin: auto;
+}
+
+.product-list {
+	border: 1px solid #9C9C9C;
+	background: #fcfcfc;
+}
+.p-list {
+	height: auto;
+	padding: 15px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.p-list:after {
+	content: ".";
+	clear: both;
+	height: 0;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+}
+.p-list li {
+	height: 120px;
+	float: left;
+}
+.p-list .inp {
+	width: 45px;
+	text-align: center;	
+}
+.p-list .inp input {
+	width: 16px;
+	height: 16px;
+}
+.p-li {
+    width: 302px;
+    /*background: #ff0;*/
+}
+.p-li .p-pic {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #CDCBCE;
+	display: block;
+	float: left;
+	
+}
+.p-li .p-pic img {
+	width: 80px;
+	height: 80px;
+}
+
+.p-li .p-text {
+	width: 180px;
+	line-height: 16px;
+	float: right;
+	min-height: 40px;
+	height: auto!important;
+	height: 40px;
+	font-size: 12px;
+	margin-right: 20px;
+}
+.p-list .td-info {
+    padding-right: 20px;
+}
+.p-list .td-info .sku-line {
+	margin: 0 5px 0 15px;
+    color: #9c9c9c;
+}
+.p-list .td-price {
+    width: 120px;
+    color: #9c9c9c;
+    margin-left: 40px;
+}
+.p-list .td-price p {
+    padding: 0 0 4px 0;
+}
+.p-list .td-am {
+    width: 120px;
+    position: relative;
+}
+.p-list .td-am .no-minus {
+	/*color: #e5e5e5;*/
+	color: #000000;
+	display: block;
+    height: 23px;
+    width: 17px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    position: absolute;
+}
+.p-list .td-am .no-minus1 {
+	left: 0;
+}
+.p-list .td-am .no-minus2 {
+	left: 60px;
+}
+.p-list .td-am input {
+	width: 39px;
+    height: 15px;
+    line-height: 15px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    background-position: -75px -375px;
+    position: absolute;
+    z-index: 2;
+    left: 19px;
+    top: 0;
+}
+.p-list .td-sum {
+	color: #f40;
+    font-weight: 700;
+    width: 105px;
+    margin-left: 40px;
+}
+.p-list .td-op {
+    width: 84px;
+    padding: 0 0 0 15px;
+}
+.p-list .td-op a {
+	color: #3c3c3c;
+}
+
+.jiesuan {
+	width: 1080px;
+	height: 50px;
+	background: #e5e5e5;
+	position: fixed;
+	bottom: 0;
+	z-index: 99;
+}
+.jie-input {
+	float: left;
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+.jie-input input {
+	width: 16px;
+	height: 16px;
+	
+}
+.j-price {
+	float: right;
+}
+.j-price .amount-sum {
+	height: 48px;
+    color: #3c3c3c;
+    float: left;
+    line-height: 48px;
+    padding: 0 10px;
+}
+
+.j-price .price-sum {
+	height: 48px;
+    color: #3c3c3c;
+    float: left;
+    line-height: 48px;
+    padding: 0 10px;
+}
+.j-price .price-sum strong {
+	color: #f40;
+    font-weight: 400;
+    font-size: 14px;
+}
+.j-price .price-sum strong span {
+	font-size: 18px;
+}
+.j-price .btn-area {
+    width: 120px;
+    height: 48px;
+    line-height: 48px;
+    background: #f40;
+    text-align: center;
+    float: left;
+    border-radius: 2px;
+}
+.j-price .btn-area a {
+    font-size: 20px;
+    color: #fff;
+}
